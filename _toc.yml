@@ -1,0 +1,6 @@
+# Table of contents
+format: jb-book
+root: README.md
+chapters:
+  - file: 00_script.ipynb
+  - file: 01_script.ipynb

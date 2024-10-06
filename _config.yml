@@ -1,0 +1,8 @@
+# Book settings
+title: Build
+
+# handle execution through template scripts by default
+execute:
+  execute_notebooks: false
+  allow_errors: false
+  timeout: -1

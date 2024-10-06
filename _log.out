@@ -1,0 +1,115 @@
+Start time: Sun Oct 6 07:26:21 AM EDT 2024
+Main PID: 33872
+nohup
+
+R version 4.3.3 (2024-02-29) -- "Angel Food Cake"
+Copyright (C) 2024 The R Foundation for Statistical Computing
+Platform: x86_64-conda-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> library(styler); style_dir(recursive = FALSE)
+Styling  1  files:
+ 00_script.R ✔
+────────────────────────────────────────
+Status	Count	Legend
+✔ 	1	File unchanged.
+ℹ 	0	File changed.
+✖ 	0	Styling threw an error.
+────────────────────────────────────────
+>
+>
+Skipping .ipynb files as Jupyter dependencies are not installed.
+You can fix this by running ``pip install "black[jupyter]"``
+All done! ✨ 🍰 ✨
+1 file left unchanged.
+[jupytext] Reading 00_script.R in format R
+[jupytext] Loading 00_script.ipynb
+[jupytext] Updating the timestamp of 00_script.R
+[NbConvertApp] Converting notebook 00_script.ipynb to notebook
+[NbConvertApp] Writing 1028 bytes to 00_script.ipynb
+[jupytext] Reading 01_script.py in format py
+[jupytext] Loading 01_script.ipynb
+[jupytext] Updating 01_script.ipynb
+[jupytext] Updating 01_script.py
+[NbConvertApp] Converting notebook 01_script.ipynb to notebook
+0.00s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+[NbConvertApp] Writing 1169 bytes to 01_script.ipynb
+Running Jupyter-Book v1.0.0
+Source Folder: /home/thadryan/Documents/WorkVault/Projects/DataProjTemplate
+Config Path: /home/thadryan/Documents/WorkVault/Projects/DataProjTemplate/_config.yml
+Output Path: /home/thadryan/Documents/WorkVault/Projects/DataProjTemplate/_build/html
+[01mRunning Sphinx v7.3.7[39;49;00m
+[01mmaking output directory... [39;49;00mdone
+[etoc] Changing master_doc to 'README'
+[01mmyst v2.0.0:[39;49;00m MdParserConfig(commonmark_only=False, gfm_only=False, enable_extensions={'colon_fence', 'tasklist', 'substitution', 'linkify', 'dollarmath'}, disable_syntax=[], all_links_external=False, url_schemes=('mailto', 'http', 'https'), ref_domains=None, fence_as_directive=set(), number_code_blocks=[], title_to_header=False, heading_anchors=0, heading_slug_func=None, html_meta={}, footnote_transition=True, words_per_minute=200, substitutions={}, linkify_fuzzy_links=True, dmath_allow_labels=True, dmath_allow_space=True, dmath_allow_digits=True, dmath_double_inline=False, update_mathjax=True, mathjax_classes='tex2jax_process|mathjax_process|math|output_area', enable_checkboxes=False, suppress_warnings=[], highlight_code_blocks=True)
+[01mmyst-nb v1.1.0:[39;49;00m NbParserConfig(custom_formats={}, metadata_key='mystnb', cell_metadata_key='mystnb', kernel_rgx_aliases={}, eval_name_regex='^[a-zA-Z_][a-zA-Z0-9_]*$', execution_mode='off', execution_cache_path='', execution_excludepatterns=[], execution_timeout=-1, execution_in_temp=False, execution_allow_errors=False, execution_raise_on_error=False, execution_show_tb=False, merge_streams=False, render_plugin='default', remove_code_source=False, remove_code_outputs=False, code_prompt_show='Show code cell {type}', code_prompt_hide='Hide code cell {type}', number_source_lines=False, output_stderr='show', render_text_lexer='myst-ansi', render_error_lexer='ipythontb', render_image_options={}, render_figure_options={}, render_markdown_format='commonmark', output_folder='build', append_css=True, metadata_to_fm=False)
+Using jupyter-cache at: /home/thadryan/Documents/WorkVault/Projects/DataProjTemplate/_build/.jupyter_cache
+[01msphinx-multitoc-numbering v0.1.3:[39;49;00m Loaded
+The default value for `navigation_with_keys` will change to `False` in the next release. If you wish to preserve the old behavior for your site, set `navigation_with_keys=True` in the `html_theme_options` dict in your `conf.py` file. Be aware that `navigation_with_keys = True` has negative accessibility implications: https://github.com/pydata/pydata-sphinx-theme/issues/1492
+[01mbuilding [mo]: [39;49;00mtargets for 0 po files that are out of date
+[01mwriting output... [39;49;00m
+[01mbuilding [html]: [39;49;00mtargets for 6 source files that are out of date
+[01mupdating environment: [39;49;00m[new config] 6 added, 0 changed, 0 removed
+[01mreading sources... [39;49;00m[ 17%] [35m00_script[39;49;00m
+[01mreading sources... [39;49;00m[ 33%] [35m01_script[39;49;00m
+[01mreading sources... [39;49;00m[ 50%] [35mREADME[39;49;00m
+[01mreading sources... [39;49;00m[ 67%] [35massets/misc[39;49;00m
+[01mreading sources... [39;49;00m[ 83%] [35mlogs/misc[39;49;00m
+[01mreading sources... [39;49;00m[100%] [35moutputs/misc[39;49;00m
+
+[91m/home/thadryan/Documents/WorkVault/Projects/DataProjTemplate/README.md:2: WARNING: Document headings start at H2, not H1 [myst.header][39;49;00m
+[91m/home/thadryan/Documents/WorkVault/Projects/DataProjTemplate/README.md:14: WARNING: Document headings start at H2, not H1 [myst.header][39;49;00m
+[01mlooking for now-outdated files... [39;49;00mnone found
+[01mpickling environment... [39;49;00mdone
+[01mchecking consistency... [39;49;00m[91m/home/thadryan/Documents/WorkVault/Projects/DataProjTemplate/assets/misc.md: WARNING: document isn't included in any toctree[39;49;00m
+[91m/home/thadryan/Documents/WorkVault/Projects/DataProjTemplate/logs/misc.md: WARNING: document isn't included in any toctree[39;49;00m
+[91m/home/thadryan/Documents/WorkVault/Projects/DataProjTemplate/outputs/misc.md: WARNING: document isn't included in any toctree[39;49;00m
+done
+[01mpreparing documents... [39;49;00mdone
+[01mcopying assets... [39;49;00m[01mcopying static files... [39;49;00mdone
+[01mcopying extra files... [39;49;00mdone
+done
+[01mwriting output... [39;49;00m[ 17%] [32m00_script[39;49;00m
+[01mwriting output... [39;49;00m[ 33%] [32m01_script[39;49;00m
+[01mwriting output... [39;49;00m[ 50%] [32mREADME[39;49;00m
+[01mwriting output... [39;49;00m[ 67%] [32massets/misc[39;49;00m
+[01mwriting output... [39;49;00m[ 83%] [32mlogs/misc[39;49;00m
+[01mwriting output... [39;49;00m[100%] [32moutputs/misc[39;49;00m
+
+[01mgenerating indices... [39;49;00mgenindex done
+[01mwriting additional pages... [39;49;00msearch done
+[01mdumping search index in English (code: en)... [39;49;00mdone
+[01mdumping object inventory... [39;49;00mdone
+[etoc] missing index.html written as redirect to 'README.html'
+[01mbuild succeeded, 5 warnings.[39;49;00m
+
+The HTML pages are in _build/html.
+
+[92m===============================================================================[0m
+
+Finished generating HTML for book.
+Your book's HTML pages are here:
+    _build/html/
+You can look at your book by opening this file in a browser:
+    _build/html/index.html
+Or paste this line directly into your browser bar:
+    file:///home/thadryan/Documents/WorkVault/Projects/DataProjTemplate/_build/html/index.html
+
+[92m===============================================================================[0m
+
